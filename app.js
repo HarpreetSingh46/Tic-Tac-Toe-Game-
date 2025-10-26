@@ -65,8 +65,8 @@ if(turnO){
   })
 })
 
-const showwinner=(jithe)=>{
-  msg.innerText=(`You are the winner bro ${jithe}`)
+const showwinner=(winner)=>{
+  msg.innerText=(`You are the winner bro ${winner}`)
   msgContainer.classList.remove("hide");
 
 }
